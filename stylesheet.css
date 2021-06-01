@@ -1,0 +1,48 @@
+body {
+  background-image: linear-gradient(green, purple);
+  background-image: url(https://cdn.hovia.com/app/uploads/green-watercolour-forest-tree-silhouette-wallpaper-mural-Plain-820x532.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+p,
+caption,
+table ,
+figure{
+  font-family: serif;
+  font-size: 16px;
+  letter-spacing: 2pt;
+  color: darkblue;
+}
+
+a {
+  color: red;
+}
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: blue;
+}
+body {
+  width: 50%;
+  margin: auto;
+}
+.quote {
+  width: 50%;
+  font-size: 160%;
+  background-color: grey;
+  border-left: solid 3px firebrick;
+  padding-left: 30px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-style: italic;
+}
