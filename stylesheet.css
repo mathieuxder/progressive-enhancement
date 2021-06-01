@@ -1,48 +1,70 @@
-body {
-  background-image: linear-gradient(green, purple);
-  background-image: url(https://cdn.hovia.com/app/uploads/green-watercolour-forest-tree-silhouette-wallpaper-mural-Plain-820x532.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-p,
-caption,
-table ,
-figure{
+p {
   font-family: serif;
-  font-size: 16px;
-  letter-spacing: 2pt;
+  font-size: 18px;
   color: darkblue;
 }
 
-a {
-  color: red;
-}
 a:link {
-  color: red;
+  color: green;
 }
 
 a:visited {
   color: green;
 }
+
 a:hover {
-  color: hotpink;
+  color: red;
 }
+
 a:active {
-  color: blue;
+  color: yellow;
 }
+
 body {
-  width: 50%;
-  margin: auto;
+  width: 90%;
+  margin: 30%;
+  background-image: url(https://cdn.pixabay.com/photo/2021/05/28/14/34/ships-6291071_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: right;
+  background-position-y: 0%;
 }
-.quote {
-  width: 50%;
+
+blockquote {
   font-size: 160%;
-  background-color: grey;
-  border-left: solid 3px firebrick;
+  background-color: gray;
+  border-left: 3px solid firebrick;
   padding-left: 30px;
   padding-top: 80px;
   padding-bottom: 80px;
   font-style: italic;
+}
+.quote2 {
+  font-size: 160%;
+  background-color: gray;
+  border-left: 3px solid green;
+  padding-left: 30px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-style: italic;
+}
+
+header:first-child {
+  background-color: gold;
+}
+.good {
+  color: green;
+  text-transform: capitalize;
+}
+.bad {
+  color: red;
+  text-transform: capitalize;
+}
+
+tr :nth-child(odd) {
+  background-color: gray;
+}
+
+td :nth-child(odd) {
+    background-color: white;
 }
