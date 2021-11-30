@@ -2,8 +2,7 @@
  Here are several exercises that I had to do in javascript
 
 ## Language Use 
->Javascript
-
+>Javascript HTML CSS
 ## What i learned
 >Maths
 >colors 
